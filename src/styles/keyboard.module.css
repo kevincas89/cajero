@@ -1,0 +1,41 @@
+.keyboardContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centra horizontalmente los elementos */
+  margin-top: 20px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.keyButton {
+  display: flex;
+  align-items: center; /* Centra verticalmente el contenido */
+  justify-content: center; /* Centra horizontalmente el contenido */
+  padding: 10px;
+  font-size: 18px;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+  width: 60px;
+  height: 50px;
+}
+
+.acceptButton {
+  background-color: #4caf50;
+  color: #ffffff;
+  margin-right: 0;
+
+}
+
+.deleteButton,
+.cancelButton {
+  background-color: #f44336;
+  color: #ffffff;
+  margin-right: 0;
+}
