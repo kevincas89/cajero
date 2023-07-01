@@ -4,6 +4,13 @@
     align-items: center;
     margin-top: 50px;
   }
+  .container.backgroundStyle {
+    background-image: url('/images/fondoCajero.jpeg');
+    background-color: #f2f2f2;
+    background-size: contain;
+
+  }
+  
   
   .heading {
     font-size: 24px;

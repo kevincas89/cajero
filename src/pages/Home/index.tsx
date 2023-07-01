@@ -1,9 +1,9 @@
 'use client'
 import React, { useState } from 'react';
-import Keyboard from '../components/keyboard';
-import styles from '../styles/index.module.css';
+import Keyboard from '../../components/keyboard';
+import styles from '../../styles/home.module.css';
 
-const Index = (): JSX.Element => {
+const Home = (): JSX.Element => {
   const [cardNumber, setCardNumber] = useState<string>('');
 
   const handleKeyPress = (key: string): void => {
@@ -23,7 +23,7 @@ const Index = (): JSX.Element => {
   };
 
   return (
-    <div className={styles.container}>
+    <div className={`${styles.container} ${styles.backgroundStyle}`}>
       <h1 className={styles.heading}>¡Bienvenido al Cajero Automático!</h1>
       <form>
         <div className={styles.message}>Ingrese número de cuenta</div>
@@ -39,4 +39,4 @@ const Index = (): JSX.Element => {
   );
 };
 
-export default Index;
+export default Home;

@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import Index from '../pages/index'
+import Inicio from '../pages/Home/index'
 export default function Home() {
-  return <Index/>
+  return <Inicio/>
 }
